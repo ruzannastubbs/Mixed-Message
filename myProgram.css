@@ -1,0 +1,12 @@
+h2 {
+	color: darkcyan;
+	text-align: center;
+}
+p {
+	color: darkblue;
+	text-align: center;
+}
+#input_div {
+	text-align: center;
+	/*border: 2px solid black;*/
+}
