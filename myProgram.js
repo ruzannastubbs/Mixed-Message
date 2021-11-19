@@ -10,9 +10,6 @@ btn.addEventListener("click", function(){
    function message(array){
        return (array[Math.floor(Math.random()*array.length)]);
    }
-   let mixedMessages = message(pronouns) + " " + message(adjectives) + " " + message(nouns);
-    console.log(mixedMessages);
+   let mixedMessages = message(pronouns) + " " + message(adjectives) + " " + message(nouns); 
     message_div.innerHTML = mixedMessages;
-    message_div.setAttribute("border", "2");
-
 });
